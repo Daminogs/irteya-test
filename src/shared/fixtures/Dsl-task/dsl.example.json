@@ -1,0 +1,46 @@
+{
+  "resolution": {
+    "width": 1920,
+    "height": 1080,
+    "columns": 12,
+    "rows": 6
+  },
+  "sections": [
+    {
+      "id": "section-1",
+      "gap": 10,
+      "charts": [
+        {
+          "title": "Продажи за день",
+          "type": "linear",
+          "colorScheme": ["#ff0000", "#00ff00"],
+          "metrics": ["sales", "profit"],
+          "width": 6,
+          "height": 3
+        },
+        {
+          "title": "Новые пользователи",
+          "type": "bar",
+          "colorScheme": ["#0000ff"],
+          "metrics": ["new_users"],
+          "width": 6,
+          "height": 3
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "gap": 10,
+      "charts": [
+        {
+          "title": "Активность пользователей",
+          "type": "area",
+          "colorScheme": ["#ff9900"],
+          "metrics": ["active_users"],
+          "width": 12,
+          "height": 3
+        }
+      ]
+    }
+  ]
+}
